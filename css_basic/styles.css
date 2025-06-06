@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: chocolate;
+    color: antiquewhite;
+    padding: 1rem;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header li a {
+    color: antiquewhite;
+    margin-right: 1rem;
+}
+
+main {
+   flex: auto;
+   display: flex;
+   padding: 1rem;
+   gap: 1rem;
+}
+
+article {
+    flex: 2;
+     overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: burlywood;
+    padding: 1rem;
+    border-left: 1px solid black;
+}
+footer {
+    background-color: chocolate;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: bisque;
+    text-decoration: none;
+}
+
+
