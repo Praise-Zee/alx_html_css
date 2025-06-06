@@ -1,1 +1,2 @@
 # alx_html_css
+Learning front-end web development has been a bittersweet journey so far. From introduction to html to css basics to html advanced and then css advanced, it has been amazing. Kudos to ALX #dohardthings
