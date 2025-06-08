@@ -1,0 +1,383 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+/* Hero Background Section */
+.hero {
+  background: url("images/Object.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+/* Header */
+header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav img {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Banner Section */
+#Banner {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#Banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#Banner h2 {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#Banner span.highlight {
+  margin: 0 10px;
+  font-weight: bold;
+  color: white;
+}
+
+#Banner button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #b089f9;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#Banner h2 span {
+  margin: 60px 0 20px;
+  color: #a85bee;
+}
+
+#Banner > div:last-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+#Banner img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+/* testimonial Section */
+
+.testimonial {
+  background-color: #a85bee;
+  color: white;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-box {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  gap: 2rem;
+}
+
+.testimonial-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  max-width: 600px;
+}
+
+.testimonial-quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.testimonial-title {
+  font-style: italic;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+
+
+
+
+.tutorial{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tutorial h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.tutorial-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.card h3,.card p{
+    margin: 0.5px 0;
+}
+
+.thumbnail{
+    position: relative;
+}
+
+.thumbnail img{
+    width: 100%;
+    display: block;
+;
+}
+
+.play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #C271FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card h4{
+    display: inline;
+    color: #C271FF;
+}
+
+.card p{
+    margin: 0 10px 10px;
+    color: #666;
+}
+
+.card p{
+    margin: 0 10px 10px;
+    color: #666;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.author img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.stars{
+    display: inline;
+    color: #C271FF;
+    margin-right: 90px;
+}
+
+
+
+.stars i:last-child{
+    color: #D8D8D8;
+}
+
+
+
+
+/* Membership Section */
+#Membership {
+    background: #071629; /* Deep navy blue */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#Membership h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+/* Container for the items and button */
+#Membership > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Membership item blocks */
+#Membership > div > div {
+    max-width: 200px;
+    text-align: center;
+}
+
+#Membership img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+#Membership h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#Membership p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* CTA Button */
+#Membership button {
+    margin-top: 40px;
+    padding: 15px 40px;
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Membership button:hover {
+    background-color: #a85bee;
+}
+
+/* Target section using proper ID escaping for "F.A.Q." */
+#F\.A\.Q\. {
+  background-color: white; /* Purple background from the design */
+  padding: 80px 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Heading style */
+#F\.A\.Q\. h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+/* Row block layout: two items per row */
+#F\.A\.Q\. .row-block {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+/* Item block layout */
+#F\.A\.Q\. .item-block {
+  flex: 1 1 40%;
+  max-width: 500px;
+  text-align: left;
+}
+
+/* Question (h3) styling */
+#F\.A\.Q\. .item-block h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Answer (p) styling */
+#F\.A\.Q\. .item-block p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+    background: #0e1e2a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
